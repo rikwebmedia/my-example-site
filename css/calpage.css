@@ -1,0 +1,91 @@
+@font-face {
+    src: url('../assets/fonts/Boy and Friend 1.ttf');
+    font-family: 'BF';
+}
+@font-face {
+    font-family: 'N';
+    src: url('../fonts/Neuropol.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --BG-ROOT: #333333;
+    --BG-DK: #333333;
+    --BG-LT: #cccccc;
+    --CL-DK: #003870;
+    --CL-LT: #efb1ce;
+
+    --LTR-W: 77vh;
+    --LTR-H: 100vh;
+    --X-69-W: 66vh;
+    --X-69-H: 100vh; 
+
+
+    
+    font-family: 'N';
+    background-color: var(--BG-ROOT);
+}
+body {
+    width: 100%;
+    height: 100%;
+    /* max-width: var(--X-69-W); */
+    max-height: var(--X-69-H);
+    margin: 0 auto;
+    background: #ffffff;
+    color: var(--CLR-DK);
+}
+header {
+    width: 100%;
+    height: 10vh;
+}
+main {
+    width: 96%;
+    min-height: 80vh;
+    margin: 0 auto;
+    padding: 1em;
+    min-height: 100px;
+    background-color: orange;
+}
+footer {
+    width: 100%;
+    height: 10vh;
+
+}
+
+input, button {
+    padding: .25em .5em;
+}
+.spacer-3 {
+    padding: 1em;
+}
+/* #date-diffs {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40% 50% 10%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+} */
+.section-title {
+    text-align: center;
+}
+.diff-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: .5em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+#date-display {
+    text-align: center;
+    font-family: courier;
+}
